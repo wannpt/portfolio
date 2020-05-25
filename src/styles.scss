@@ -1,1 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* You can add global styles to this file, and also import other style files */
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    background: #222831;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+   text-decoration: none;    
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #fefefe;
+    letter-spacing: 0.5rem;
+}
+
+h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.2rem;
+}
+
+h3{
+    font-weight: 400;
+    color: white;
+    margin: 0px;
+}
+
+h4{
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+}
+
+#title{
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+}
+
+.section{
+    padding-top: 2rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section-dark-bg{
+    background-color: #14181D;
+}
+
+.topic-box{
+    padding: 0 1rem 0 1rem;
+    margin-bottom: 3rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.side-bar-right{
+    position: fixed;
+    height: 100vh;
+    right: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.side-bar-left{
+    position: fixed;
+    height: 100vh;
+    left: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 2rem;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    width: 450px;
+    height: 600px;
+    margin: 0px 1.5rem 0px 1.5rem;
+    background-color: white;
+}
+
+.sub-section{
+    margin-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-section-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-section-lists-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
